@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A062BA72C10B3D000C36E21 /* PopOverEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BA62C10B3D000C36E21 /* PopOverEx.swift */; };
+		4A062BA92C10BF1200C36E21 /* NavViewsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BA82C10BF1200C36E21 /* NavViewsEx.swift */; };
+		4A062BAB2C10C31700C36E21 /* ListEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BAA2C10C31700C36E21 /* ListEx.swift */; };
+		4A062BAD2C10EE8C00C36E21 /* AlertsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BAC2C10EE8C00C36E21 /* AlertsEx.swift */; };
+		4A062BAF2C1108AD00C36E21 /* ActionSheetEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BAE2C1108AD00C36E21 /* ActionSheetEx.swift */; };
+		4A062BB12C111B1C00C36E21 /* ContextMenuEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BB02C111B1B00C36E21 /* ContextMenuEx.swift */; };
+		4A062BB32C111DA800C36E21 /* TextFieldEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BB22C111DA800C36E21 /* TextFieldEx.swift */; };
+		4A062BB52C1121FA00C36E21 /* TextEditorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BB42C1121FA00C36E21 /* TextEditorEx.swift */; };
+		4A062BB72C11254800C36E21 /* ToggleSwitchEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BB62C11254700C36E21 /* ToggleSwitchEx.swift */; };
+		4A062BB92C113F7800C36E21 /* PickerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BB82C113F7800C36E21 /* PickerEx.swift */; };
+		4A062BBB2C114AB200C36E21 /* ColorPickerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */; };
 		4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */; };
 		4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A4C682C07E3B900DA72E2 /* ContentView.swift */; };
 		4A1A4C6B2C07E3C700DA72E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A4C6A2C07E3C700DA72E2 /* Assets.xcassets */; };
@@ -24,6 +35,16 @@
 		4A2240F42C0D33D1004A4546 /* LazyVGridEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240F32C0D33D1004A4546 /* LazyVGridEx.swift */; };
 		4A2240F62C0F5766004A4546 /* SafeAreaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240F52C0F5766004A4546 /* SafeAreaEx.swift */; };
 		4A2240F82C0F5B74004A4546 /* ButtonsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240F72C0F5B74004A4546 /* ButtonsEx.swift */; };
+		4A2240FA2C0F7EDE004A4546 /* StateProp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240F92C0F7EDE004A4546 /* StateProp.swift */; };
+		4A2240FC2C0F81D0004A4546 /* ExtractedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240FB2C0F81D0004A4546 /* ExtractedFunctions.swift */; };
+		4A2240FE2C0F844E004A4546 /* SubViewsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240FD2C0F844E004A4546 /* SubViewsEx.swift */; };
+		4A2241002C0F8C41004A4546 /* BindingEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240FF2C0F8C41004A4546 /* BindingEx.swift */; };
+		4A2241042C0F8FB8004A4546 /* Conditionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2241032C0F8FB8004A4546 /* Conditionals.swift */; };
+		4A2241062C0FA42D004A4546 /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2241052C0FA42D004A4546 /* TernaryOperators.swift */; };
+		4A2241082C0FA8B2004A4546 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2241072C0FA8B2004A4546 /* Animations.swift */; };
+		4A22410A2C0FACE1004A4546 /* AnimationCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2241092C0FACE1004A4546 /* AnimationCurves.swift */; };
+		4A22410C2C0FB086004A4546 /* TransitionEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22410B2C0FB086004A4546 /* TransitionEx.swift */; };
+		4A22410E2C10AEEA004A4546 /* SheetsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22410D2C10AEEA004A4546 /* SheetsEx.swift */; };
 		4ADB10582C0BB6B100D60237 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB10572C0BB6B100D60237 /* Shapes.swift */; };
 		4ADB105A2C0BB9BD00D60237 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB10592C0BB9BD00D60237 /* Colors.swift */; };
 		4ADB105C2C0BC51500D60237 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB105B2C0BC51500D60237 /* Gradients.swift */; };
@@ -51,6 +72,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A062BA62C10B3D000C36E21 /* PopOverEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverEx.swift; sourceTree = "<group>"; };
+		4A062BA82C10BF1200C36E21 /* NavViewsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewsEx.swift; sourceTree = "<group>"; };
+		4A062BAA2C10C31700C36E21 /* ListEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx.swift; sourceTree = "<group>"; };
+		4A062BAC2C10EE8C00C36E21 /* AlertsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsEx.swift; sourceTree = "<group>"; };
+		4A062BAE2C1108AD00C36E21 /* ActionSheetEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetEx.swift; sourceTree = "<group>"; };
+		4A062BB02C111B1B00C36E21 /* ContextMenuEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuEx.swift; sourceTree = "<group>"; };
+		4A062BB22C111DA800C36E21 /* TextFieldEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEx.swift; sourceTree = "<group>"; };
+		4A062BB42C1121FA00C36E21 /* TextEditorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorEx.swift; sourceTree = "<group>"; };
+		4A062BB62C11254700C36E21 /* ToggleSwitchEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchEx.swift; sourceTree = "<group>"; };
+		4A062BB82C113F7800C36E21 /* PickerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerEx.swift; sourceTree = "<group>"; };
+		4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerEx.swift; sourceTree = "<group>"; };
 		4A1A4C632C07E3B900DA72E2 /* SwiftBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsApp.swift; sourceTree = "<group>"; };
 		4A1A4C682C07E3B900DA72E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +103,16 @@
 		4A2240F32C0D33D1004A4546 /* LazyVGridEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridEx.swift; sourceTree = "<group>"; };
 		4A2240F52C0F5766004A4546 /* SafeAreaEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaEx.swift; sourceTree = "<group>"; };
 		4A2240F72C0F5B74004A4546 /* ButtonsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsEx.swift; sourceTree = "<group>"; };
+		4A2240F92C0F7EDE004A4546 /* StateProp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProp.swift; sourceTree = "<group>"; };
+		4A2240FB2C0F81D0004A4546 /* ExtractedFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctions.swift; sourceTree = "<group>"; };
+		4A2240FD2C0F844E004A4546 /* SubViewsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewsEx.swift; sourceTree = "<group>"; };
+		4A2240FF2C0F8C41004A4546 /* BindingEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingEx.swift; sourceTree = "<group>"; };
+		4A2241032C0F8FB8004A4546 /* Conditionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditionals.swift; sourceTree = "<group>"; };
+		4A2241052C0FA42D004A4546 /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
+		4A2241072C0FA8B2004A4546 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		4A2241092C0FACE1004A4546 /* AnimationCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurves.swift; sourceTree = "<group>"; };
+		4A22410B2C0FB086004A4546 /* TransitionEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionEx.swift; sourceTree = "<group>"; };
+		4A22410D2C10AEEA004A4546 /* SheetsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsEx.swift; sourceTree = "<group>"; };
 		4ADB10572C0BB6B100D60237 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		4ADB10592C0BB9BD00D60237 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		4ADB105B2C0BC51500D60237 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
@@ -130,11 +172,32 @@
 			children = (
 				4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */,
 				4A1A4C682C07E3B900DA72E2 /* ContentView.swift */,
+				4A062BB62C11254700C36E21 /* ToggleSwitchEx.swift */,
 				4A1A4C902C07E73300DA72E2 /* TextTest.swift */,
+				4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */,
 				4ADB10592C0BB9BD00D60237 /* Colors.swift */,
+				4A2241092C0FACE1004A4546 /* AnimationCurves.swift */,
+				4A22410D2C10AEEA004A4546 /* SheetsEx.swift */,
 				4A2240F12C0D2FAD004A4546 /* ScrollViewEx.swift */,
+				4A2240FB2C0F81D0004A4546 /* ExtractedFunctions.swift */,
 				4ADB10612C0BE16500D60237 /* Frame.swift */,
+				4A2240FD2C0F844E004A4546 /* SubViewsEx.swift */,
+				4A22410B2C0FB086004A4546 /* TransitionEx.swift */,
+				4A062BAA2C10C31700C36E21 /* ListEx.swift */,
+				4A2240F92C0F7EDE004A4546 /* StateProp.swift */,
+				4A062BB22C111DA800C36E21 /* TextFieldEx.swift */,
+				4A062BB42C1121FA00C36E21 /* TextEditorEx.swift */,
+				4A062BAE2C1108AD00C36E21 /* ActionSheetEx.swift */,
+				4A062BB82C113F7800C36E21 /* PickerEx.swift */,
+				4A062BA82C10BF1200C36E21 /* NavViewsEx.swift */,
+				4A2241032C0F8FB8004A4546 /* Conditionals.swift */,
+				4A062BB02C111B1B00C36E21 /* ContextMenuEx.swift */,
+				4A062BAC2C10EE8C00C36E21 /* AlertsEx.swift */,
+				4A2241052C0FA42D004A4546 /* TernaryOperators.swift */,
+				4A062BA62C10B3D000C36E21 /* PopOverEx.swift */,
+				4A2240FF2C0F8C41004A4546 /* BindingEx.swift */,
 				4ADB10632C0BE5E300D60237 /* BackGroundAndOverlay.swift */,
+				4A2241072C0FA8B2004A4546 /* Animations.swift */,
 				4A2240EF2C0D2BE7004A4546 /* forEachEx.swift */,
 				4A2240E72C0D055D004A4546 /* Padding.swift */,
 				4A2240F32C0D33D1004A4546 /* LazyVGridEx.swift */,
@@ -308,24 +371,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A062BAB2C10C31700C36E21 /* ListEx.swift in Sources */,
 				4ADB10622C0BE16500D60237 /* Frame.swift in Sources */,
+				4A22410C2C0FB086004A4546 /* TransitionEx.swift in Sources */,
+				4A22410A2C0FACE1004A4546 /* AnimationCurves.swift in Sources */,
 				4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */,
+				4A062BA92C10BF1200C36E21 /* NavViewsEx.swift in Sources */,
 				4A2240F42C0D33D1004A4546 /* LazyVGridEx.swift in Sources */,
 				4A2240EE2C0D1A31004A4546 /* InitAndEnums.swift in Sources */,
+				4A2241042C0F8FB8004A4546 /* Conditionals.swift in Sources */,
 				4A2240E62C0CFB74004A4546 /* Stacks.swift in Sources */,
+				4A062BAF2C1108AD00C36E21 /* ActionSheetEx.swift in Sources */,
 				4A2240F22C0D2FAD004A4546 /* ScrollViewEx.swift in Sources */,
 				4ADB105A2C0BB9BD00D60237 /* Colors.swift in Sources */,
 				4A2240F82C0F5B74004A4546 /* ButtonsEx.swift in Sources */,
+				4A062BB92C113F7800C36E21 /* PickerEx.swift in Sources */,
+				4A062BB52C1121FA00C36E21 /* TextEditorEx.swift in Sources */,
+				4A22410E2C10AEEA004A4546 /* SheetsEx.swift in Sources */,
+				4A2240FE2C0F844E004A4546 /* SubViewsEx.swift in Sources */,
+				4A2240FA2C0F7EDE004A4546 /* StateProp.swift in Sources */,
+				4A062BB12C111B1C00C36E21 /* ContextMenuEx.swift in Sources */,
+				4A062BB32C111DA800C36E21 /* TextFieldEx.swift in Sources */,
+				4A062BB72C11254800C36E21 /* ToggleSwitchEx.swift in Sources */,
 				4A1A4C912C07E73300DA72E2 /* TextTest.swift in Sources */,
+				4A2240FC2C0F81D0004A4546 /* ExtractedFunctions.swift in Sources */,
+				4A062BBB2C114AB200C36E21 /* ColorPickerEx.swift in Sources */,
 				4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */,
 				4ADB10582C0BB6B100D60237 /* Shapes.swift in Sources */,
+				4A062BAD2C10EE8C00C36E21 /* AlertsEx.swift in Sources */,
 				4A2240F62C0F5766004A4546 /* SafeAreaEx.swift in Sources */,
 				4ADB10642C0BE5E300D60237 /* BackGroundAndOverlay.swift in Sources */,
 				4ADB10602C0BCEBA00D60237 /* Images.swift in Sources */,
 				4A2240F02C0D2BE7004A4546 /* forEachEx.swift in Sources */,
+				4A2241062C0FA42D004A4546 /* TernaryOperators.swift in Sources */,
+				4A2241082C0FA8B2004A4546 /* Animations.swift in Sources */,
 				4ADB105C2C0BC51500D60237 /* Gradients.swift in Sources */,
 				4ADB105E2C0BC83F00D60237 /* SystemIcons.swift in Sources */,
+				4A062BA72C10B3D000C36E21 /* PopOverEx.swift in Sources */,
 				4A2240E82C0D055D004A4546 /* Padding.swift in Sources */,
+				4A2241002C0F8C41004A4546 /* BindingEx.swift in Sources */,
 				4A2240EC2C0D0B21004A4546 /* Spacers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
