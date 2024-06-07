@@ -18,6 +18,14 @@
 		4A062BB72C11254800C36E21 /* ToggleSwitchEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BB62C11254700C36E21 /* ToggleSwitchEx.swift */; };
 		4A062BB92C113F7800C36E21 /* PickerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BB82C113F7800C36E21 /* PickerEx.swift */; };
 		4A062BBB2C114AB200C36E21 /* ColorPickerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */; };
+		4A062BBD2C12105E00C36E21 /* DatePickerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BBC2C12105E00C36E21 /* DatePickerEx.swift */; };
+		4A062BBF2C122A8C00C36E21 /* StepperEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BBE2C122A8C00C36E21 /* StepperEx.swift */; };
+		4A062BC12C122FAE00C36E21 /* SliderEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BC02C122FAE00C36E21 /* SliderEx.swift */; };
+		4A062BC32C12344400C36E21 /* TabsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BC22C12344400C36E21 /* TabsEx.swift */; };
+		4A062BC52C1243C300C36E21 /* DarkModeEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BC42C1243C300C36E21 /* DarkModeEx.swift */; };
+		4A062BC72C13815F00C36E21 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BC62C13815F00C36E21 /* Documentation.swift */; };
+		4A062BC92C138A3000C36E21 /* OnAppearEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BC82C138A3000C36E21 /* OnAppearEx.swift */; };
+		4A062BCB2C138EE900C36E21 /* IfLetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BCA2C138EE900C36E21 /* IfLetGuard.swift */; };
 		4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */; };
 		4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A4C682C07E3B900DA72E2 /* ContentView.swift */; };
 		4A1A4C6B2C07E3C700DA72E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A4C6A2C07E3C700DA72E2 /* Assets.xcassets */; };
@@ -83,6 +91,14 @@
 		4A062BB62C11254700C36E21 /* ToggleSwitchEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchEx.swift; sourceTree = "<group>"; };
 		4A062BB82C113F7800C36E21 /* PickerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerEx.swift; sourceTree = "<group>"; };
 		4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerEx.swift; sourceTree = "<group>"; };
+		4A062BBC2C12105E00C36E21 /* DatePickerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerEx.swift; sourceTree = "<group>"; };
+		4A062BBE2C122A8C00C36E21 /* StepperEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperEx.swift; sourceTree = "<group>"; };
+		4A062BC02C122FAE00C36E21 /* SliderEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderEx.swift; sourceTree = "<group>"; };
+		4A062BC22C12344400C36E21 /* TabsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsEx.swift; sourceTree = "<group>"; };
+		4A062BC42C1243C300C36E21 /* DarkModeEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeEx.swift; sourceTree = "<group>"; };
+		4A062BC62C13815F00C36E21 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+		4A062BC82C138A3000C36E21 /* OnAppearEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearEx.swift; sourceTree = "<group>"; };
+		4A062BCA2C138EE900C36E21 /* IfLetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuard.swift; sourceTree = "<group>"; };
 		4A1A4C632C07E3B900DA72E2 /* SwiftBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsApp.swift; sourceTree = "<group>"; };
 		4A1A4C682C07E3B900DA72E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,15 +190,22 @@
 				4A1A4C682C07E3B900DA72E2 /* ContentView.swift */,
 				4A062BB62C11254700C36E21 /* ToggleSwitchEx.swift */,
 				4A1A4C902C07E73300DA72E2 /* TextTest.swift */,
+				4A062BBC2C12105E00C36E21 /* DatePickerEx.swift */,
+				4A062BC42C1243C300C36E21 /* DarkModeEx.swift */,
+				4A062BBE2C122A8C00C36E21 /* StepperEx.swift */,
 				4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */,
 				4ADB10592C0BB9BD00D60237 /* Colors.swift */,
+				4A062BC02C122FAE00C36E21 /* SliderEx.swift */,
+				4A062BC22C12344400C36E21 /* TabsEx.swift */,
 				4A2241092C0FACE1004A4546 /* AnimationCurves.swift */,
 				4A22410D2C10AEEA004A4546 /* SheetsEx.swift */,
+				4A062BC62C13815F00C36E21 /* Documentation.swift */,
 				4A2240F12C0D2FAD004A4546 /* ScrollViewEx.swift */,
 				4A2240FB2C0F81D0004A4546 /* ExtractedFunctions.swift */,
 				4ADB10612C0BE16500D60237 /* Frame.swift */,
 				4A2240FD2C0F844E004A4546 /* SubViewsEx.swift */,
 				4A22410B2C0FB086004A4546 /* TransitionEx.swift */,
+				4A062BCA2C138EE900C36E21 /* IfLetGuard.swift */,
 				4A062BAA2C10C31700C36E21 /* ListEx.swift */,
 				4A2240F92C0F7EDE004A4546 /* StateProp.swift */,
 				4A062BB22C111DA800C36E21 /* TextFieldEx.swift */,
@@ -193,6 +216,7 @@
 				4A2241032C0F8FB8004A4546 /* Conditionals.swift */,
 				4A062BB02C111B1B00C36E21 /* ContextMenuEx.swift */,
 				4A062BAC2C10EE8C00C36E21 /* AlertsEx.swift */,
+				4A062BC82C138A3000C36E21 /* OnAppearEx.swift */,
 				4A2241052C0FA42D004A4546 /* TernaryOperators.swift */,
 				4A062BA62C10B3D000C36E21 /* PopOverEx.swift */,
 				4A2240FF2C0F8C41004A4546 /* BindingEx.swift */,
@@ -373,6 +397,7 @@
 			files = (
 				4A062BAB2C10C31700C36E21 /* ListEx.swift in Sources */,
 				4ADB10622C0BE16500D60237 /* Frame.swift in Sources */,
+				4A062BC12C122FAE00C36E21 /* SliderEx.swift in Sources */,
 				4A22410C2C0FB086004A4546 /* TransitionEx.swift in Sources */,
 				4A22410A2C0FACE1004A4546 /* AnimationCurves.swift in Sources */,
 				4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */,
@@ -385,16 +410,23 @@
 				4A2240F22C0D2FAD004A4546 /* ScrollViewEx.swift in Sources */,
 				4ADB105A2C0BB9BD00D60237 /* Colors.swift in Sources */,
 				4A2240F82C0F5B74004A4546 /* ButtonsEx.swift in Sources */,
+				4A062BBF2C122A8C00C36E21 /* StepperEx.swift in Sources */,
 				4A062BB92C113F7800C36E21 /* PickerEx.swift in Sources */,
 				4A062BB52C1121FA00C36E21 /* TextEditorEx.swift in Sources */,
+				4A062BCB2C138EE900C36E21 /* IfLetGuard.swift in Sources */,
+				4A062BC72C13815F00C36E21 /* Documentation.swift in Sources */,
 				4A22410E2C10AEEA004A4546 /* SheetsEx.swift in Sources */,
 				4A2240FE2C0F844E004A4546 /* SubViewsEx.swift in Sources */,
 				4A2240FA2C0F7EDE004A4546 /* StateProp.swift in Sources */,
 				4A062BB12C111B1C00C36E21 /* ContextMenuEx.swift in Sources */,
+				4A062BC92C138A3000C36E21 /* OnAppearEx.swift in Sources */,
 				4A062BB32C111DA800C36E21 /* TextFieldEx.swift in Sources */,
+				4A062BC52C1243C300C36E21 /* DarkModeEx.swift in Sources */,
 				4A062BB72C11254800C36E21 /* ToggleSwitchEx.swift in Sources */,
 				4A1A4C912C07E73300DA72E2 /* TextTest.swift in Sources */,
 				4A2240FC2C0F81D0004A4546 /* ExtractedFunctions.swift in Sources */,
+				4A062BC32C12344400C36E21 /* TabsEx.swift in Sources */,
+				4A062BBD2C12105E00C36E21 /* DatePickerEx.swift in Sources */,
 				4A062BBB2C114AB200C36E21 /* ColorPickerEx.swift in Sources */,
 				4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */,
 				4ADB10582C0BB6B100D60237 /* Shapes.swift in Sources */,
