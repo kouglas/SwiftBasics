@@ -26,6 +26,8 @@
 		4A062BC72C13815F00C36E21 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BC62C13815F00C36E21 /* Documentation.swift */; };
 		4A062BC92C138A3000C36E21 /* OnAppearEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BC82C138A3000C36E21 /* OnAppearEx.swift */; };
 		4A062BCB2C138EE900C36E21 /* IfLetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BCA2C138EE900C36E21 /* IfLetGuard.swift */; };
+		4A062BCD2C1394E900C36E21 /* TapGestureEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BCC2C1394E800C36E21 /* TapGestureEx.swift */; };
+		4A062BCF2C13AB6100C36E21 /* ModelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BCE2C13AB6000C36E21 /* ModelEx.swift */; };
 		4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */; };
 		4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A4C682C07E3B900DA72E2 /* ContentView.swift */; };
 		4A1A4C6B2C07E3C700DA72E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A4C6A2C07E3C700DA72E2 /* Assets.xcassets */; };
@@ -99,6 +101,8 @@
 		4A062BC62C13815F00C36E21 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
 		4A062BC82C138A3000C36E21 /* OnAppearEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearEx.swift; sourceTree = "<group>"; };
 		4A062BCA2C138EE900C36E21 /* IfLetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuard.swift; sourceTree = "<group>"; };
+		4A062BCC2C1394E800C36E21 /* TapGestureEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureEx.swift; sourceTree = "<group>"; };
+		4A062BCE2C13AB6000C36E21 /* ModelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEx.swift; sourceTree = "<group>"; };
 		4A1A4C632C07E3B900DA72E2 /* SwiftBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsApp.swift; sourceTree = "<group>"; };
 		4A1A4C682C07E3B900DA72E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,8 +203,10 @@
 				4A062BC22C12344400C36E21 /* TabsEx.swift */,
 				4A2241092C0FACE1004A4546 /* AnimationCurves.swift */,
 				4A22410D2C10AEEA004A4546 /* SheetsEx.swift */,
+				4A062BCC2C1394E800C36E21 /* TapGestureEx.swift */,
 				4A062BC62C13815F00C36E21 /* Documentation.swift */,
 				4A2240F12C0D2FAD004A4546 /* ScrollViewEx.swift */,
+				4A062BCE2C13AB6000C36E21 /* ModelEx.swift */,
 				4A2240FB2C0F81D0004A4546 /* ExtractedFunctions.swift */,
 				4ADB10612C0BE16500D60237 /* Frame.swift */,
 				4A2240FD2C0F844E004A4546 /* SubViewsEx.swift */,
@@ -409,10 +415,12 @@
 				4A062BAF2C1108AD00C36E21 /* ActionSheetEx.swift in Sources */,
 				4A2240F22C0D2FAD004A4546 /* ScrollViewEx.swift in Sources */,
 				4ADB105A2C0BB9BD00D60237 /* Colors.swift in Sources */,
+				4A062BCF2C13AB6100C36E21 /* ModelEx.swift in Sources */,
 				4A2240F82C0F5B74004A4546 /* ButtonsEx.swift in Sources */,
 				4A062BBF2C122A8C00C36E21 /* StepperEx.swift in Sources */,
 				4A062BB92C113F7800C36E21 /* PickerEx.swift in Sources */,
 				4A062BB52C1121FA00C36E21 /* TextEditorEx.swift in Sources */,
+				4A062BCD2C1394E900C36E21 /* TapGestureEx.swift in Sources */,
 				4A062BCB2C138EE900C36E21 /* IfLetGuard.swift in Sources */,
 				4A062BC72C13815F00C36E21 /* Documentation.swift in Sources */,
 				4A22410E2C10AEEA004A4546 /* SheetsEx.swift in Sources */,
