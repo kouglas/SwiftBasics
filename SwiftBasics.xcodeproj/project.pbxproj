@@ -58,6 +58,9 @@
 		4A667C802C1612DE00158819 /* ViewModelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C7F2C1612DD00158819 /* ViewModelEx.swift */; };
 		4A667C842C1626D100158819 /* EnvironmentObjectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C832C1626D100158819 /* EnvironmentObjectEx.swift */; };
 		4A667C862C164BBF00158819 /* AppStorageEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C852C164BBF00158819 /* AppStorageEx.swift */; };
+		4A667C892C18F96800158819 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C882C18F96800158819 /* IntroView.swift */; };
+		4A667C8B2C18FB8800158819 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C8A2C18FB8800158819 /* OnboardingView.swift */; };
+		4A9560AA2C1B3B8C0024DCD1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9560A92C1B3B8C0024DCD1 /* ProfileView.swift */; };
 		4ADB10582C0BB6B100D60237 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB10572C0BB6B100D60237 /* Shapes.swift */; };
 		4ADB105A2C0BB9BD00D60237 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB10592C0BB9BD00D60237 /* Colors.swift */; };
 		4ADB105C2C0BC51500D60237 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB105B2C0BC51500D60237 /* Gradients.swift */; };
@@ -139,6 +142,9 @@
 		4A667C7F2C1612DD00158819 /* ViewModelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelEx.swift; sourceTree = "<group>"; };
 		4A667C832C1626D100158819 /* EnvironmentObjectEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectEx.swift; sourceTree = "<group>"; };
 		4A667C852C164BBF00158819 /* AppStorageEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageEx.swift; sourceTree = "<group>"; };
+		4A667C882C18F96800158819 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		4A667C8A2C18FB8800158819 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4A9560A92C1B3B8C0024DCD1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4ADB10572C0BB6B100D60237 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		4ADB10592C0BB9BD00D60237 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		4ADB105B2C0BC51500D60237 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
@@ -204,6 +210,7 @@
 				4A062BC42C1243C300C36E21 /* DarkModeEx.swift */,
 				4A062BBE2C122A8C00C36E21 /* StepperEx.swift */,
 				4A667C852C164BBF00158819 /* AppStorageEx.swift */,
+				4A667C872C18F94600158819 /* OnboardingViews */,
 				4A667C832C1626D100158819 /* EnvironmentObjectEx.swift */,
 				4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */,
 				4ADB10592C0BB9BD00D60237 /* Colors.swift */,
@@ -278,6 +285,16 @@
 				4A1A4C832C07E3C800DA72E2 /* SwiftBasicsUITestsLaunchTests.swift */,
 			);
 			path = SwiftBasicsUITests;
+			sourceTree = "<group>";
+		};
+		4A667C872C18F94600158819 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				4A667C882C18F96800158819 /* IntroView.swift */,
+				4A667C8A2C18FB8800158819 /* OnboardingView.swift */,
+				4A9560A92C1B3B8C0024DCD1 /* ProfileView.swift */,
+			);
+			path = OnboardingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +450,7 @@
 				4A062BCD2C1394E900C36E21 /* TapGestureEx.swift in Sources */,
 				4A062BCB2C138EE900C36E21 /* IfLetGuard.swift in Sources */,
 				4A062BC72C13815F00C36E21 /* Documentation.swift in Sources */,
+				4A667C892C18F96800158819 /* IntroView.swift in Sources */,
 				4A667C862C164BBF00158819 /* AppStorageEx.swift in Sources */,
 				4A22410E2C10AEEA004A4546 /* SheetsEx.swift in Sources */,
 				4A2240FE2C0F844E004A4546 /* SubViewsEx.swift in Sources */,
@@ -449,9 +467,11 @@
 				4A062BBD2C12105E00C36E21 /* DatePickerEx.swift in Sources */,
 				4A062BBB2C114AB200C36E21 /* ColorPickerEx.swift in Sources */,
 				4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */,
+				4A9560AA2C1B3B8C0024DCD1 /* ProfileView.swift in Sources */,
 				4ADB10582C0BB6B100D60237 /* Shapes.swift in Sources */,
 				4A062BAD2C10EE8C00C36E21 /* AlertsEx.swift in Sources */,
 				4A2240F62C0F5766004A4546 /* SafeAreaEx.swift in Sources */,
+				4A667C8B2C18FB8800158819 /* OnboardingView.swift in Sources */,
 				4ADB10642C0BE5E300D60237 /* BackGroundAndOverlay.swift in Sources */,
 				4ADB10602C0BCEBA00D60237 /* Images.swift in Sources */,
 				4A2240F02C0D2BE7004A4546 /* forEachEx.swift in Sources */,
