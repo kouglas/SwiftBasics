@@ -60,6 +60,7 @@
 		4A667C862C164BBF00158819 /* AppStorageEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C852C164BBF00158819 /* AppStorageEx.swift */; };
 		4A667C892C18F96800158819 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C882C18F96800158819 /* IntroView.swift */; };
 		4A667C8B2C18FB8800158819 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C8A2C18FB8800158819 /* OnboardingView.swift */; };
+		4A8DB1712C1F5BC5007AFBF4 /* NavigationStackEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8DB1702C1F5BC5007AFBF4 /* NavigationStackEx.swift */; };
 		4A9560AA2C1B3B8C0024DCD1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9560A92C1B3B8C0024DCD1 /* ProfileView.swift */; };
 		4A9560AC2C1B42460024DCD1 /* AsyncImageEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9560AB2C1B42460024DCD1 /* AsyncImageEx.swift */; };
 		4A9560AE2C1B4AC20024DCD1 /* BackgroundMaterialsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9560AD2C1B4AC20024DCD1 /* BackgroundMaterialsEx.swift */; };
@@ -67,6 +68,8 @@
 		4AB24E812C1E546B00049E40 /* ButtonStyleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E802C1E546B00049E40 /* ButtonStyleEx.swift */; };
 		4AB24E832C1E63F000049E40 /* SwipeActionsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E822C1E63F000049E40 /* SwipeActionsEx.swift */; };
 		4AB24E852C1E69FF00049E40 /* BadgeEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E842C1E69FF00049E40 /* BadgeEx.swift */; };
+		4AB24E872C1F405B00049E40 /* FocusStateEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E862C1F405B00049E40 /* FocusStateEx.swift */; };
+		4AB24E892C1F527C00049E40 /* SubmitTextFieldEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E882C1F527C00049E40 /* SubmitTextFieldEx.swift */; };
 		4ADB10582C0BB6B100D60237 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB10572C0BB6B100D60237 /* Shapes.swift */; };
 		4ADB105A2C0BB9BD00D60237 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB10592C0BB9BD00D60237 /* Colors.swift */; };
 		4ADB105C2C0BC51500D60237 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB105B2C0BC51500D60237 /* Gradients.swift */; };
@@ -150,6 +153,7 @@
 		4A667C852C164BBF00158819 /* AppStorageEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageEx.swift; sourceTree = "<group>"; };
 		4A667C882C18F96800158819 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		4A667C8A2C18FB8800158819 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4A8DB1702C1F5BC5007AFBF4 /* NavigationStackEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackEx.swift; sourceTree = "<group>"; };
 		4A9560A92C1B3B8C0024DCD1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4A9560AB2C1B42460024DCD1 /* AsyncImageEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageEx.swift; sourceTree = "<group>"; };
 		4A9560AD2C1B4AC20024DCD1 /* BackgroundMaterialsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsEx.swift; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 		4AB24E802C1E546B00049E40 /* ButtonStyleEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleEx.swift; sourceTree = "<group>"; };
 		4AB24E822C1E63F000049E40 /* SwipeActionsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsEx.swift; sourceTree = "<group>"; };
 		4AB24E842C1E69FF00049E40 /* BadgeEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeEx.swift; sourceTree = "<group>"; };
+		4AB24E862C1F405B00049E40 /* FocusStateEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateEx.swift; sourceTree = "<group>"; };
+		4AB24E882C1F527C00049E40 /* SubmitTextFieldEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTextFieldEx.swift; sourceTree = "<group>"; };
 		4ADB10572C0BB6B100D60237 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		4ADB10592C0BB9BD00D60237 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		4ADB105B2C0BC51500D60237 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
@@ -229,6 +235,8 @@
 				4ADB10592C0BB9BD00D60237 /* Colors.swift */,
 				4A667C7F2C1612DD00158819 /* ViewModelEx.swift */,
 				4A062BC02C122FAE00C36E21 /* SliderEx.swift */,
+				4A8DB1702C1F5BC5007AFBF4 /* NavigationStackEx.swift */,
+				4AB24E882C1F527C00049E40 /* SubmitTextFieldEx.swift */,
 				4A9560AB2C1B42460024DCD1 /* AsyncImageEx.swift */,
 				4A062BC22C12344400C36E21 /* TabsEx.swift */,
 				4A2241092C0FACE1004A4546 /* AnimationCurves.swift */,
@@ -247,6 +255,7 @@
 				4A062BAA2C10C31700C36E21 /* ListEx.swift */,
 				4A2240F92C0F7EDE004A4546 /* StateProp.swift */,
 				4AB24E842C1E69FF00049E40 /* BadgeEx.swift */,
+				4AB24E862C1F405B00049E40 /* FocusStateEx.swift */,
 				4A062BB22C111DA800C36E21 /* TextFieldEx.swift */,
 				4A062BB42C1121FA00C36E21 /* TextEditorEx.swift */,
 				4A062BAE2C1108AD00C36E21 /* ActionSheetEx.swift */,
@@ -451,6 +460,7 @@
 				4ADB10622C0BE16500D60237 /* Frame.swift in Sources */,
 				4A062BC12C122FAE00C36E21 /* SliderEx.swift in Sources */,
 				4A22410C2C0FB086004A4546 /* TransitionEx.swift in Sources */,
+				4AB24E872C1F405B00049E40 /* FocusStateEx.swift in Sources */,
 				4A22410A2C0FACE1004A4546 /* AnimationCurves.swift in Sources */,
 				4A667C842C1626D100158819 /* EnvironmentObjectEx.swift in Sources */,
 				4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */,
@@ -459,6 +469,7 @@
 				4A2240F42C0D33D1004A4546 /* LazyVGridEx.swift in Sources */,
 				4A9560AE2C1B4AC20024DCD1 /* BackgroundMaterialsEx.swift in Sources */,
 				4A2240EE2C0D1A31004A4546 /* InitAndEnums.swift in Sources */,
+				4A8DB1712C1F5BC5007AFBF4 /* NavigationStackEx.swift in Sources */,
 				4A2241042C0F8FB8004A4546 /* Conditionals.swift in Sources */,
 				4A2240E62C0CFB74004A4546 /* Stacks.swift in Sources */,
 				4A062BAF2C1108AD00C36E21 /* ActionSheetEx.swift in Sources */,
@@ -488,6 +499,7 @@
 				4A1A4C912C07E73300DA72E2 /* TextTest.swift in Sources */,
 				4A2240FC2C0F81D0004A4546 /* ExtractedFunctions.swift in Sources */,
 				4A062BC32C12344400C36E21 /* TabsEx.swift in Sources */,
+				4AB24E892C1F527C00049E40 /* SubmitTextFieldEx.swift in Sources */,
 				4A062BBD2C12105E00C36E21 /* DatePickerEx.swift in Sources */,
 				4A062BBB2C114AB200C36E21 /* ColorPickerEx.swift in Sources */,
 				4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */,
