@@ -60,6 +60,12 @@
 		4A667C862C164BBF00158819 /* AppStorageEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C852C164BBF00158819 /* AppStorageEx.swift */; };
 		4A667C892C18F96800158819 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C882C18F96800158819 /* IntroView.swift */; };
 		4A667C8B2C18FB8800158819 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A667C8A2C18FB8800158819 /* OnboardingView.swift */; };
+		4A741E3D2C25E907007D89D4 /* ResizableSheetEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A741E3C2C25E907007D89D4 /* ResizableSheetEx.swift */; };
+		4A741E412C260CD0007D89D4 /* SafeAreaInsetEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A741E402C260CD0007D89D4 /* SafeAreaInsetEx.swift */; };
+		4A741E432C261219007D89D4 /* GroupEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A741E422C261219007D89D4 /* GroupEx.swift */; };
+		4A741E452C2618D1007D89D4 /* AnimateWithValueEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A741E442C2618D1007D89D4 /* AnimateWithValueEx.swift */; };
+		4A741E472C262F8D007D89D4 /* MenuEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A741E462C262F8D007D89D4 /* MenuEx.swift */; };
+		4A741E492C2630D2007D89D4 /* NativePopoverEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A741E482C2630D2007D89D4 /* NativePopoverEx.swift */; };
 		4A8DB1712C1F5BC5007AFBF4 /* NavigationStackEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8DB1702C1F5BC5007AFBF4 /* NavigationStackEx.swift */; };
 		4A8DB1732C20E8FF007AFBF4 /* ToolBarEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8DB1722C20E8FF007AFBF4 /* ToolBarEx.swift */; };
 		4A9560AA2C1B3B8C0024DCD1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9560A92C1B3B8C0024DCD1 /* ProfileView.swift */; };
@@ -154,6 +160,12 @@
 		4A667C852C164BBF00158819 /* AppStorageEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageEx.swift; sourceTree = "<group>"; };
 		4A667C882C18F96800158819 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		4A667C8A2C18FB8800158819 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4A741E3C2C25E907007D89D4 /* ResizableSheetEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetEx.swift; sourceTree = "<group>"; };
+		4A741E402C260CD0007D89D4 /* SafeAreaInsetEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetEx.swift; sourceTree = "<group>"; };
+		4A741E422C261219007D89D4 /* GroupEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEx.swift; sourceTree = "<group>"; };
+		4A741E442C2618D1007D89D4 /* AnimateWithValueEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateWithValueEx.swift; sourceTree = "<group>"; };
+		4A741E462C262F8D007D89D4 /* MenuEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuEx.swift; sourceTree = "<group>"; };
+		4A741E482C2630D2007D89D4 /* NativePopoverEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverEx.swift; sourceTree = "<group>"; };
 		4A8DB1702C1F5BC5007AFBF4 /* NavigationStackEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackEx.swift; sourceTree = "<group>"; };
 		4A8DB1722C20E8FF007AFBF4 /* ToolBarEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarEx.swift; sourceTree = "<group>"; };
 		4A9560A92C1B3B8C0024DCD1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -234,19 +246,25 @@
 				4A667C872C18F94600158819 /* OnboardingViews */,
 				4A667C832C1626D100158819 /* EnvironmentObjectEx.swift */,
 				4A8DB1722C20E8FF007AFBF4 /* ToolBarEx.swift */,
+				4A741E3C2C25E907007D89D4 /* ResizableSheetEx.swift */,
 				4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */,
 				4ADB10592C0BB9BD00D60237 /* Colors.swift */,
 				4A667C7F2C1612DD00158819 /* ViewModelEx.swift */,
 				4A062BC02C122FAE00C36E21 /* SliderEx.swift */,
 				4A8DB1702C1F5BC5007AFBF4 /* NavigationStackEx.swift */,
 				4AB24E882C1F527C00049E40 /* SubmitTextFieldEx.swift */,
+				4A741E402C260CD0007D89D4 /* SafeAreaInsetEx.swift */,
 				4A9560AB2C1B42460024DCD1 /* AsyncImageEx.swift */,
 				4A062BC22C12344400C36E21 /* TabsEx.swift */,
 				4A2241092C0FACE1004A4546 /* AnimationCurves.swift */,
+				4A741E462C262F8D007D89D4 /* MenuEx.swift */,
 				4A22410D2C10AEEA004A4546 /* SheetsEx.swift */,
+				4A741E442C2618D1007D89D4 /* AnimateWithValueEx.swift */,
 				4A062BCC2C1394E800C36E21 /* TapGestureEx.swift */,
 				4A9560AD2C1B4AC20024DCD1 /* BackgroundMaterialsEx.swift */,
+				4A741E422C261219007D89D4 /* GroupEx.swift */,
 				4A062BC62C13815F00C36E21 /* Documentation.swift */,
+				4A741E482C2630D2007D89D4 /* NativePopoverEx.swift */,
 				4A2240F12C0D2FAD004A4546 /* ScrollViewEx.swift */,
 				4A062BCE2C13AB6000C36E21 /* ModelEx.swift */,
 				4A2240FB2C0F81D0004A4546 /* ExtractedFunctions.swift */,
@@ -464,6 +482,7 @@
 				4A062BC12C122FAE00C36E21 /* SliderEx.swift in Sources */,
 				4A22410C2C0FB086004A4546 /* TransitionEx.swift in Sources */,
 				4AB24E872C1F405B00049E40 /* FocusStateEx.swift in Sources */,
+				4A741E492C2630D2007D89D4 /* NativePopoverEx.swift in Sources */,
 				4A22410A2C0FACE1004A4546 /* AnimationCurves.swift in Sources */,
 				4A667C842C1626D100158819 /* EnvironmentObjectEx.swift in Sources */,
 				4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */,
@@ -487,11 +506,15 @@
 				4A062BB52C1121FA00C36E21 /* TextEditorEx.swift in Sources */,
 				4A062BCD2C1394E900C36E21 /* TapGestureEx.swift in Sources */,
 				4A062BCB2C138EE900C36E21 /* IfLetGuard.swift in Sources */,
+				4A741E452C2618D1007D89D4 /* AnimateWithValueEx.swift in Sources */,
 				4A8DB1732C20E8FF007AFBF4 /* ToolBarEx.swift in Sources */,
 				4A062BC72C13815F00C36E21 /* Documentation.swift in Sources */,
+				4A741E412C260CD0007D89D4 /* SafeAreaInsetEx.swift in Sources */,
 				4A667C892C18F96800158819 /* IntroView.swift in Sources */,
+				4A741E472C262F8D007D89D4 /* MenuEx.swift in Sources */,
 				4A667C862C164BBF00158819 /* AppStorageEx.swift in Sources */,
 				4A22410E2C10AEEA004A4546 /* SheetsEx.swift in Sources */,
+				4A741E432C261219007D89D4 /* GroupEx.swift in Sources */,
 				4A2240FE2C0F844E004A4546 /* SubViewsEx.swift in Sources */,
 				4A2240FA2C0F7EDE004A4546 /* StateProp.swift in Sources */,
 				4A062BB12C111B1C00C36E21 /* ContextMenuEx.swift in Sources */,
@@ -522,6 +545,7 @@
 				4A062BA72C10B3D000C36E21 /* PopOverEx.swift in Sources */,
 				4A2240E82C0D055D004A4546 /* Padding.swift in Sources */,
 				4A2241002C0F8C41004A4546 /* BindingEx.swift in Sources */,
+				4A741E3D2C25E907007D89D4 /* ResizableSheetEx.swift in Sources */,
 				4A2240EC2C0D0B21004A4546 /* Spacers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct ToolBarEx: View {
-    var body: some View {
-        NavigationStack {
+    var body: some View {               NavigationStack {
             ZStack{
                 Color.purple
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -24,7 +23,7 @@ struct ToolBarEx: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Image(systemName: "heart.fill")
                 }
-                ToolbarItem(placement: .bottomBar){
+                ToolbarItem(placement: .bottomBar ){
                     Image(systemName: "gear")
                 }
                 
