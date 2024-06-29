@@ -78,6 +78,7 @@
 		4AA28E432C2C9C9200B6777F /* GridEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA28E422C2C9C9200B6777F /* GridEx.swift */; };
 		4AA28E452C2CC3C700B6777F /* ContentUnavailableViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA28E442C2CC3C700B6777F /* ContentUnavailableViewEx.swift */; };
 		4AA28E472C2CC7DC00B6777F /* ControlGroupEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA28E462C2CC7DC00B6777F /* ControlGroupEx.swift */; };
+		4AA28E492C304CAC00B6777F /* ObservableMacrosEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA28E482C304CAC00B6777F /* ObservableMacrosEx.swift */; };
 		4AB24E812C1E546B00049E40 /* ButtonStyleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E802C1E546B00049E40 /* ButtonStyleEx.swift */; };
 		4AB24E832C1E63F000049E40 /* SwipeActionsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E822C1E63F000049E40 /* SwipeActionsEx.swift */; };
 		4AB24E852C1E69FF00049E40 /* BadgeEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24E842C1E69FF00049E40 /* BadgeEx.swift */; };
@@ -184,6 +185,7 @@
 		4AA28E422C2C9C9200B6777F /* GridEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridEx.swift; sourceTree = "<group>"; };
 		4AA28E442C2CC3C700B6777F /* ContentUnavailableViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewEx.swift; sourceTree = "<group>"; };
 		4AA28E462C2CC7DC00B6777F /* ControlGroupEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupEx.swift; sourceTree = "<group>"; };
+		4AA28E482C304CAC00B6777F /* ObservableMacrosEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMacrosEx.swift; sourceTree = "<group>"; };
 		4AB24E802C1E546B00049E40 /* ButtonStyleEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleEx.swift; sourceTree = "<group>"; };
 		4AB24E822C1E63F000049E40 /* SwipeActionsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsEx.swift; sourceTree = "<group>"; };
 		4AB24E842C1E69FF00049E40 /* BadgeEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeEx.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				4A741E3C2C25E907007D89D4 /* ResizableSheetEx.swift */,
 				4A062BBA2C114AB200C36E21 /* ColorPickerEx.swift */,
 				4ADB10592C0BB9BD00D60237 /* Colors.swift */,
+				4AA28E482C304CAC00B6777F /* ObservableMacrosEx.swift */,
 				4A667C7F2C1612DD00158819 /* ViewModelEx.swift */,
 				4A062BC02C122FAE00C36E21 /* SliderEx.swift */,
 				4AA28E3E2C2B699700B6777F /* ViewThatFitsEx.swift */,
@@ -552,6 +555,7 @@
 				4A062BBB2C114AB200C36E21 /* ColorPickerEx.swift in Sources */,
 				4A1A4C672C07E3B900DA72E2 /* SwiftBasicsApp.swift in Sources */,
 				4A9560AA2C1B3B8C0024DCD1 /* ProfileView.swift in Sources */,
+				4AA28E492C304CAC00B6777F /* ObservableMacrosEx.swift in Sources */,
 				4ADB10582C0BB6B100D60237 /* Shapes.swift in Sources */,
 				4A062BAD2C10EE8C00C36E21 /* AlertsEx.swift in Sources */,
 				4A2240F62C0F5766004A4546 /* SafeAreaEx.swift in Sources */,
