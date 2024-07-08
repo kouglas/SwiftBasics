@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A00B12E2C3C2C2100CEC1B2 /* core_bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00B12D2C3C2C2100CEC1B2 /* core_bluetooth.swift */; };
+		4A00B1302C3C2C3C00CEC1B2 /* CoreBluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00B12F2C3C2C3C00CEC1B2 /* CoreBluetoothView.swift */; };
 		4A062BA72C10B3D000C36E21 /* PopOverEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BA62C10B3D000C36E21 /* PopOverEx.swift */; };
 		4A062BA92C10BF1200C36E21 /* NavViewsEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BA82C10BF1200C36E21 /* NavViewsEx.swift */; };
 		4A062BAB2C10C31700C36E21 /* ListEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A062BAA2C10C31700C36E21 /* ListEx.swift */; };
@@ -111,6 +113,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A00B12D2C3C2C2100CEC1B2 /* core_bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = core_bluetooth.swift; sourceTree = "<group>"; };
+		4A00B12F2C3C2C3C00CEC1B2 /* CoreBluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothView.swift; sourceTree = "<group>"; };
 		4A062BA62C10B3D000C36E21 /* PopOverEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverEx.swift; sourceTree = "<group>"; };
 		4A062BA82C10BF1200C36E21 /* NavViewsEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewsEx.swift; sourceTree = "<group>"; };
 		4A062BAA2C10C31700C36E21 /* ListEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx.swift; sourceTree = "<group>"; };
@@ -225,6 +229,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A00B12C2C3C2B9D00CEC1B2 /* core-bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				4A00B12D2C3C2C2100CEC1B2 /* core_bluetooth.swift */,
+				4A00B12F2C3C2C3C00CEC1B2 /* CoreBluetoothView.swift */,
+			);
+			path = "core-bluetooth";
+			sourceTree = "<group>";
+		};
 		4A1A4C5A2C07E3B900DA72E2 = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +261,7 @@
 		4A1A4C652C07E3B900DA72E2 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				4A00B12C2C3C2B9D00CEC1B2 /* core-bluetooth */,
 				4A1A4C662C07E3B900DA72E2 /* SwiftBasicsApp.swift */,
 				4A1A4C682C07E3B900DA72E2 /* ContentView.swift */,
 				4A062BB62C11254700C36E21 /* ToggleSwitchEx.swift */,
@@ -509,6 +523,7 @@
 				4A667C842C1626D100158819 /* EnvironmentObjectEx.swift in Sources */,
 				4A1A4C692C07E3B900DA72E2 /* ContentView.swift in Sources */,
 				4A062BA92C10BF1200C36E21 /* NavViewsEx.swift in Sources */,
+				4A00B12E2C3C2C2100CEC1B2 /* core_bluetooth.swift in Sources */,
 				4A9560B02C1B4C1C0024DCD1 /* TextSelectionEx.swift in Sources */,
 				4A2240F42C0D33D1004A4546 /* LazyVGridEx.swift in Sources */,
 				4A9560AE2C1B4AC20024DCD1 /* BackgroundMaterialsEx.swift in Sources */,
@@ -567,6 +582,7 @@
 				4A2241062C0FA42D004A4546 /* TernaryOperators.swift in Sources */,
 				4AA28E472C2CC7DC00B6777F /* ControlGroupEx.swift in Sources */,
 				4A2241082C0FA8B2004A4546 /* Animations.swift in Sources */,
+				4A00B1302C3C2C3C00CEC1B2 /* CoreBluetoothView.swift in Sources */,
 				4ADB105C2C0BC51500D60237 /* Gradients.swift in Sources */,
 				4ADB105E2C0BC83F00D60237 /* SystemIcons.swift in Sources */,
 				4A062BA72C10B3D000C36E21 /* PopOverEx.swift in Sources */,
@@ -740,6 +756,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftBasics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use ";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow your device to be discoverable";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -768,6 +786,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftBasics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use ";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow your device to be discoverable";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
