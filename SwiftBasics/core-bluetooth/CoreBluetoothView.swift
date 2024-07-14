@@ -8,7 +8,21 @@
 import SwiftUI
 import CoreBluetooth
 
-/* this class should be going in its own Viewmodel file in
+/*
+ TODOS:
+    1. I want to see the button in the view first ✅
+    2. I want to connect the bluetooth search to a button press ✅ == changed to having both in view and implementing
+    3. On press the button should disappear and then either show the
+    bluetooth device list || go to a view that has a bluetooth device
+    list. ✅ == changed to on button press the bluetooth function initiates and then the list should appear
+ 
+ */
+        
+
+
+
+// MARK: BLUETOOTH DELEGATE
+/* this class should be going in its own ViewModel file in
  the viewModels directory correct? */
 class BluetoothViewModel: NSObject, ObservableObject {
     private var centralManager: CBCentralManager?
@@ -25,34 +39,21 @@ class BluetoothViewModel: NSObject, ObservableObject {
 struct CoreBluetoothView: View {
     @ObservedObject private var bluetoothViewModel = BluetoothViewModel()
 
-
+// MARK: BODY
     var body: some View {
-        
-/*
- TODOS:
-    1. I want to see the button in the view first ✅
-    2. I want to connect the bluetooth search to a button press ✅ == changed to having both in view and implementing
-    3. On press the button should disappear and then either show the
-    bluetooth device list || go to a view that has a bluetooth device
-    list. ✅ == changed to on button press the bluetooth function initiates and then the list should appear
- 
- */
-        
-//        bluetoothDeviceList
-        
-        
-        
         bluetoothDeviceList
         searchForBluetoothDevicesButton
         Spacer()
     }
 }
 
+//MARK: PREVIEW
 #Preview {
     CoreBluetoothView()
 }
 
 
+//MARK: EXTENSIONS
 extension CoreBluetoothView {
     private var searchForBluetoothDevicesButton: some View {
         Button {
@@ -60,7 +61,7 @@ extension CoreBluetoothView {
             bluetoothViewModel.toggleBluetooth()
         
                 } label: {
-                    Text("Search for  bluetooth devices")
+                    Text("search for bluetooth devices")
                         .textCase(.uppercase)
                         .font(.subheadline)
                         .fontWeight(.semibold)
